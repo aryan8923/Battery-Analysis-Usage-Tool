@@ -10,8 +10,8 @@ One can then either use the data directly or use the python script to view it gr
 4. You can run the `plot_battery.py` to plot the data. (You can always the run the script even when `battery.sh` is running)
 
 ## Dependencies
-**For `battery.sh`**
-None! Just set the file paths accordingly. 
+**For `battery.sh`** \
+None! Just set the file paths accordingly. \
 **For plot_battery.py**
 - Numpy
 - Matplotlib
@@ -20,3 +20,10 @@ None! Just set the file paths accordingly.
 ### To be added in future releases
 - GPU usage monitoring (Different GPUs require different utilities for the task. Nvidia GPUs require `nvidia-smi`, Intel GPU's require `intel-gpu-tools`, AMD either `fglrx` or `RadeonTop`.)
 - Proper GUI tkinter program for it
+
+### Copyright
+Battery Usage Analysis Tool is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+Battery Usage Analysis Tool is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with Battery Usage Analysis Tool. If not, see <https://www.gnu.org/licenses/>.
